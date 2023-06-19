@@ -47,6 +47,20 @@
  */
 
 /*
+  //Formatando Strings
 
+        var s = 'JavaScript'
+        window.alert('Eu estou apredendo s')     //não faz interpolação
+        window.alert('Eu estou aprendendo ' + s) //usa concatenação
+        window.alert(`Eu estou aprendendo ${s}`) //usa template string 
+        window.alert('Quantas letras? ' + s.length) //quantos caracteres a string tem
+        window.alert('Me mostre tudo maiúsculo ' + s.toUpperCase()) //tudo para 'MAIÚSCULAS'
+        window.alert('Me mostre tudo minúsculo ' + s.toLowerCase())//tudo para 'minúsculas'
+
+    //Formatando Números 
+    var n1 = 1543.5
+    n1
+    n1.toFixed(2)
+    n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
  */
 
